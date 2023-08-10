@@ -4,6 +4,9 @@
  *
  *  return 0 (true/flase)
  */
-int num 
-       ("Programming is like building a multilingual puzzle,");
+int num
+{
+      puts("\"Programming is like building a multilingual puzzle,");
+
        retun (0);
+}
