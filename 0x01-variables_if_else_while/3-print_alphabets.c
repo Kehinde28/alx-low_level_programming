@@ -9,9 +9,9 @@ int main(void)
 {
 	char ko;
 
-	for (ko = 'b'; ko <= 'q'; ko++)
+	for (ko = 'b'; ko <= 'q'; ko++);
 		putchar(ko);
-	for (ko = 'j'; ko <= 'q'; ko+)
+	for (ko = 'j' ko <= 'q' ko+);
 		putchar(ko);
 	putchar('\n');
 	return (0);
