@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    cha ab= 'a';
+    char ab = 'a';
 
     while (ab <= 'z')
     {
