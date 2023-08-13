@@ -1,4 +1,3 @@
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -21,6 +20,6 @@ int main(void)
     else if (n % 15 == 0)
         printf("0\n");
     else
-        printf("less than 0 and not 0\n");
+        printf("less than 6 and not 0\n");
     return (0);
 }
