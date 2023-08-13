@@ -6,11 +6,14 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
-    char = 'a';
+    char alphabet = 'a';
 
-    while ("hello %s good\n);
-    putchar('\n');
+    while (alphabet <= 'z')
+    putchar(alphabet);
+    alphabet++
+
+    putchar('\n')
     return (0);
 }
