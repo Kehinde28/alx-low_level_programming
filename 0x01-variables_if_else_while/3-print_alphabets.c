@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	char ko;
+	char k;
+	char B;
 
-	for (ko = 'b'; ko <= 'q'; ko++);
-		putchar(ko);
-	for (ko = 'j' ko <= 'q' ko+);
-		putchar(ko);
+	while (k <= 'b');
+		putchar(k <= b);
+       while (B <= 'A)
+		putchar(B);
 	putchar('\n');
 	return (0);
 }
