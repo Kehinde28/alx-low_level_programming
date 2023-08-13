@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - print irints whether a randomly grnerated
+ * main - print whether a randomly grnerated
  * Return: 0
 */
 
@@ -13,12 +13,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%d", n);
-	if ("n > 0");
-		printf("if %f is positive\n");
-	else if ("n = 0");
-		printf("if %f is zero\n");
+	printf("%d", n)
+
+	if (n > 0)
+		printf("%d is positive\n");
+	else if (n = 0)
+		printf("%d is zero\n");
 	else
-		printf("if %f is negative\n");
+		printf("if %d is negative\n");
 	return (0);
 }
