@@ -5,7 +5,7 @@
 /**
  * main - print the last digit of a randomly generated number
  * Return: 0
- */
+*/
 
 int main(void)
 {
