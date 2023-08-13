@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * Description: Prints whether a randomly generated number
- * Return: 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
@@ -16,10 +16,10 @@ int main(void)
     printf("%d", n);
 
     if (n > 0)
-        printf("is %d positive\n");
+        printf("is positive\n");
     else if (n == 0)
-        printf("is %d zero\n" );
+        printf("is zero\n");
     else
-        printf("is %d negative\n" );
+        printf("is negative\n");
     return (0);
 }
