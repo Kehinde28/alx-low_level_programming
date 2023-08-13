@@ -4,12 +4,13 @@
 /**
  * main - program that prints the alphabet in lowercase
  * Return: 0
-*/
+ */
 
 int main()
 {
-	putchat[] = ("a");
-	printf("hello %s is good");
-	return (0);
+    char = 'a';
 
+    while ("hello %s good\n);
+    putchar('\n');
+    return (0);
 }
