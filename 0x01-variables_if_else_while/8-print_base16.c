@@ -7,19 +7,19 @@
 
 int main(void)
 {
-    char hex_digit;
+	char hexadecimal_digit;
 
-    for (hex_digit = '0'; hex_digit <= '9'; hex_digit++)
-    {
-        putchar(hex_digit);
-    }
+	for (hexadecimal_digit = '0'; hexadecimal_digit <= '9'; hexadecimal_digit++)
+	{
+		putchar(hexadecimal_digit);
+	}
 
-    for (hex_digit = 'a'; hex_digit <= 'f'; hex_digit++)
-    {
-        putchar(hex_digit);
-    }
+	for (hexadecimal_digit = 'a'; hexadecimal_digit <= 'f'; hexadecimal_digit++)
+	{
+		putchar(hexadecimal_digit);
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
