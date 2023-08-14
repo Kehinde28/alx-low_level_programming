@@ -2,23 +2,23 @@
 
 /**
  * main - program that prints the alphabet in lowercase
- * Return: Always 0 (Success)
- */
+ * Return: 0
+*/
 
 int main(void)
 {
-	char ab = 'a';
+    char ab = 'a';
 
-	while (ab <= 'z')
-	{
-		if (ab != 'q' && ab != 'e')
-		{
-			putchar(ab);
-		}
-		ab++;
-	}
+    while (ab <= 'z')
+    {
+        if (ab != 'q' && ab != 'e')
+        {
+            putchar(ab);
+        }
+        ab++;
+    }
 
-	putchar('\n');
+    putchar('\n');
 
-	return (0);
-}}
+    return (0);
+}
