@@ -6,25 +6,25 @@
  */
 int main(void)
 {
-    int num;
+	int num;
 
-    for (num = 12; num < 790; num++)
-    {
-        if ((num / 100) < ((num / 10) % 10) && ((num / 10) % 10) < (num % 10))
-        {
-            putchar((num / 100) + '0');
-            putchar(((num / 10) % 10) + '0');
-            putchar((num % 10) + '0');
+	for (num = 12; num < 790; num++)
+	{
+		if ((num / 100) < ((num / 10) % 10) && ((num / 10) % 10) < (num % 10))
+		{
+			putchar((num / 100) + '0');
+			putchar(((num / 10) % 10) + '0');
+			putchar((num % 10) + '0');
 
-            if (num < 789)
-            {
-                putchar(',');
-                putchar(' ');
-            }
-        }
-    }
+			if (num < 789)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
