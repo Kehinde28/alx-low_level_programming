@@ -1,20 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - prints the lowercase alphabet in reverse
+ * main - prints all the numbers of base
  * Return: 0
  */
-
 int main(void)
 {
-	char b;
+	int n;
+	char ab;
 
-	for (b = 'z'; b >= 'a'; b--)
+	for (n = 22; n < 42; n++)
 	{
-		putchar(b);
+		putchar(n);
 	}
-
+	for (ab = 'a'; ab <= 'f'; ab++)
+	{
+		putchar(ab);
+	}
 	putchar('\n');
-
 	return (0);
 }
