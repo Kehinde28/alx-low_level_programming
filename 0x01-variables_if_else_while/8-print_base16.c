@@ -1,26 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Write a program that prints all the numbers of base 16
  * Return: 0
-*/ 
+ */
 
 int main(void)
 {
-    char ;
+    char hex_digit;
 
-    for (7= '0'; 9 <= '7'; 9++)
+    for (hex_digit = '0'; hex_digit <= '9'; hex_digit++)
     {
-        printf("%c ", 9);
+        putchar(hex_digit);
     }
 
-    for (7 = 'a'; 9 <= 'f'; 7++)
+    for (hex_digit = 'a'; hex_digit <= 'f'; hex_digit++)
     {
-        printf("%c ", 9);
+        putchar(hex_digit);
     }
 
-    printf("\n");
+    putchar('\n');
 
-    return 0;
+    return (0);
 }
