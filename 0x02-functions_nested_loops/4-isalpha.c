@@ -8,8 +8,14 @@
  */
 int _isalpha(int c)
 {
-    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-        return (1);
-    else
-        return (0);
+	char lowercase_range_start = 'a';
+	char lowercase_range_end = 'z';
+	char uppercase_range_start = 'A';
+	char uppercase_range_end = 'Z';
+
+	if ((c >= lowercase_range_start && c <= lowercase_range_end) ||
+	    (c >= uppercase_range_start && c <= uppercase_range_end))
+		return (1);
+	else
+		return (0);
 }
