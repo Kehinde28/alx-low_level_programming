@@ -17,7 +17,6 @@ int main(void)
 		nextFib = fib1 + fib2;
 		printf(", %lu", nextFib);
 
-		// Detecting overflow by checking if nextFib is less than fib2
 		if (nextFib < fib2)
 			break;
 
