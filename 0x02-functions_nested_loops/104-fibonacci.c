@@ -17,15 +17,13 @@ int main(void)
         nextFib = fib1 + fib2;
         printf(", %lu", nextFib);
 
+        if (nextFib < fib2)
+            break;
+
         fib1 = fib2;
         fib2 = nextFib;
-
-        // Detecting overflow
-        if (fib1 > fib2)
-            break;
     }
 
     printf("\n");
-
     return (0);
 }
