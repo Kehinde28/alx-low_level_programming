@@ -7,24 +7,24 @@
  */
 int main(void)
 {
-	unsigned long int fib1 = 1, fib2 = 2, nextFib;
-	int count;
+    unsigned long int fib1 = 1, fib2 = 2, nextFib;
+    int count;
 
-	printf("%lu, %lu", fib1, fib2);
+    printf("%lu, %lu", fib1, fib2);
 
-	for (count = 2; count < 98; count++)
-	{
-		nextFib = fib1 + fib2;
-		printf(", %lu", nextFib);
+    for (count = 2; count < 98; count++)
+    {
+        nextFib = fib1 + fib2;
+        printf(", %lu", nextFib);
 
-		if (nextFib < fib2)
-			break;
+        if (nextFib < fib2)
+            break;
 
-		fib1 = fib2;
-		fib2 = nextFib;
-	}
+        fib1 = fib2;
+        fib2 = nextFib;
+    }
 
-	printf("\n");
+    printf("\n");
 
-	return (0);
+    return (0);
 }
