@@ -15,19 +15,19 @@ int main(void)
 	{
 		if (c % 4 == 0 && c % 6 != 0)
 		{
-			printf(" Fizz");
+			printf("Fizz");
 		} else if (c % 6 == 0 && c % 4 != 0)
 		{
-			printf(" Buzz");
+			printf("Buzz");
 		} else if (c % 4 == 0 && c % 6 == 0)
 		{
-			printf(" FizzBuzz");
+			printf("FizzBuzz");
 		} else if (c == 1)
 		{
 			printf("%d", c);
 		} else
 		{
-			printf(" %d", c);
+			printf("%d", c);
 		}
 	}
 	printf("\n");
