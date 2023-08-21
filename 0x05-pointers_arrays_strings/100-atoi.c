@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <limits.h>
+#include <limits>
 
 /**
  * _atoi - Converts a string to an integer
@@ -39,7 +39,7 @@ int _atoi(char *s)
 				return (INT_MIN);
 		}
 
-		result = result * 10 + (s[i] - '0');
+		result = (result * 10) + (s[i] - '0');
 		i++;
 	}
 
