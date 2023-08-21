@@ -3,22 +3,22 @@
 /**
  * rev_string - Reverses a string
  * @s: Input string
- * Return: String in reverse
+ *
+ * Return: void
  */
-
 void rev_string(char *s)
 {
-	char rev = s[0];
-	int meter = 0;
-	int i;
+    char rev;
+    int meter = 0;
+    int i;
 
-	while (s[meter] != '\0')
-	counter++;
-	for (i = 0; i < meter; i++)
-	{
-		meter--;
-		rev = s[i];
-		s[i] = s[meter];
-		s[meter] = rev;
-	}
+    while (s[meter] != '\0')
+        meter++;
+
+    for (i = 0; i < meter / 2; i++)
+    {
+        rev = s[i];
+        s[i] = s[meter - 1 - i];
+        s[meter - 1 - i] = rev;
+    }
 }
