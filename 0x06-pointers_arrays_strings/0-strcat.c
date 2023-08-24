@@ -3,7 +3,6 @@
  * _strcat - concatenates two strings
  * @dest: input value
  * @src: input value
- *
  * Return: void
  */
 
@@ -20,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	b = 0;
 	while (src[b] != '\0')
 	{
-		dest[a] = src[b];
+		dest[b] = src[b];
 		a++;
 		b++;
 	}
