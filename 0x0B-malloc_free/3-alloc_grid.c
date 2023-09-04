@@ -10,27 +10,27 @@
 
 int **alloc_grid(int width, int height)
 {
-	int **sea;
+	int **see;
 	int a, y;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	sea = malloc(sizeof(int *) * height);
+	see = malloc(sizeof(int *) * height);
 
-	if (sea == NULL)
+	if (see == NULL)
 		return (NULL);
 
 	for (a = 0; a < height; a++)
 	{
-		sea[a] = malloc(sizeof(int) * width);
+		see[a] = malloc(sizeof(int) * width);
 
-		if (sea[a] == NULL)
+		if (see[a] == NULL)
 		{
 			for (; a >= 0; a--)
-				free(sea[a]);
+				free(see[a]);
 
-			free(sea);
+			free(see);
 			return (NULL);
 		}
 	}
@@ -38,8 +38,8 @@ int **alloc_grid(int width, int height)
 	for (a = 0; a < height; a++)
 	{
 		for (y = 0; y < width; y++)
-			sea[x][y] = 0;
+			see[x][y] = 0;
 	}
 
-	return (sea);
+	return (see);
 }
