@@ -22,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 	while (s1[a] != '\0')
 		a++;
 	while (s2[ba] != '\0')
-		ca++;
+		ba++;
 	conct = malloc(sizeof(char) * (a + ba + 1));
 
 	if (conct == NULL)
